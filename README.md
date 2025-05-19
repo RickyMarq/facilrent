@@ -1,72 +1,66 @@
 # FacilRent – Projeto Final: Design System & UX
 
-Este projeto foi desenvolvido como parte da disciplina **Design System & UX**, com o objetivo de implementar um **Design System funcional** com base em um protótipo no Figma e tecnologias modernas como ReactJS, Vite e Storybook.
+FacilRent é uma aplicação desenvolvida como parte da disciplina **Design System & UX**, com foco na criação e aplicação de um Design System funcional utilizando ReactJS, Storybook e testes automatizados.
 
 ---
 
-## 🧩 Tecnologias utilizadas
+## 🔗 Protótipo
 
-- ⚛️ React 19 com Vite
-- 🎨 Tokens de design (cores, tipografia, espaçamento)
-- 📚 [Storybook](https://storybook.js.org/) para documentação de componentes
-- ✅ Vitest + React Testing Library para testes unitários
+[🔗 Acesse o protótipo no Figma](https://www.figma.com/design/3cRNfeQVeHs8wC7isBsDmk/Design-System---FacilRent?node-id=35627-422&t=bJ4bDjomzZJI3wGL-1)
 
 ---
 
-## 🖥️ Protótipo no Figma
+## 🧰 Tecnologias utilizadas
 
-🔗 [Clique aqui para visualizar o protótipo](https://www.figma.com/file/SEU-LINK-AQUI)
+- React 19 + Vite
+- Design Tokens (`colors`, `spacing`, `typography`)
+- Storybook 8
+- Vitest + Testing Library
+- Fonte: DM Sans
+- Gradientes personalizados
 
 ---
 
-## 📦 Instalação do projeto
-
-Clone o repositório:
+## 🚀 Instalação
 
 ```bash
 git clone https://github.com/RickyMarq/facilrent.git
 cd facilrent
 npm install
-🚀 Rodando o projeto
-🔧 Em desenvolvimento:
+🧪 Execução
+Em desenvolvimento:
 bash
 Copy
 Edit
 npm run dev
-📖 Rodando o Storybook:
+Rodar o Storybook:
 bash
 Copy
 Edit
 npm run storybook
-🧪 Rodando os testes:
+Rodar os testes:
 bash
 Copy
 Edit
 npm run test
 📁 Estrutura
-bash
+java
 Copy
 Edit
 src/
-├── components/         # Componentes reutilizáveis (botões, onboarding)
-├── tokens/             # Tokens de design (cores, espaçamento, tipografia)
-├── Tests/              # Testes unitários com Vitest
-├── assets/             # Imagens e recursos
-├── styles/             # (Opcional) estilos globais
+├── components/         → Componentes reutilizáveis (botões, onboarding)
+├── tokens/             → Tokens de design (cores, espaçamento, tipografia)
+├── Tests/              → Testes unitários com Vitest
+├── assets/             → Imagens e recursos
+├── styles/             → Estilos globais (opcional)
 
 ✅ Entregáveis atendidos
- Estrutura de tokens reutilizáveis
-
- 2 componentes reutilizáveis com gradiente e responsividade
-
- Tela onboarding fiel ao protótipo
-
- Documentação com Storybook
-
- Testes unitários com cobertura de interação e render
+Estrutura de tokens reutilizáveis
+Dois componentes reutilizáveis com gradiente e responsividade
+Tela onboarding fiel ao protótipo
+Documentação via Storybook
+Testes unitários com render e clique
 
 ✍️ Autor
 Henrique Marques
 github.com/RickyMarq
-
-Se quiser adicionar badges (como cobertura, status do deploy ou links diretos), posso ajudar com isso também!
