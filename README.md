@@ -2,6 +2,10 @@
 
 FacilRent é uma aplicação desenvolvida como parte da disciplina **Design System & UX**, com foco na criação e aplicação de um Design System funcional utilizando ReactJS, Storybook e testes automatizados.
 
+Gostaria de informar que precisei desenvolver este projeto completamente sozinho, sem a colaboração dos demais membros do grupo. Todo o código e o design foram feitos exclusivamente por mim.
+
+Apesar de um colega ter enviado o link do GitHub do projeto, reforço que todo o conteúdo foi produzido unicamente por mim, e não houve nenhuma contribuição externa no desenvolvimento. Caso algum outro aluno tente entregar o mesmo material, peço que desconsidere, pois trata-se de um trabalho individual de minha autoria, obrigado.
+
 ---
 
 ## 🔗 Protótipo
