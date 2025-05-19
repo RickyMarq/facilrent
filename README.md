@@ -1,12 +1,72 @@
-# React + Vite
+# FacilRent – Projeto Final: Design System & UX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte da disciplina **Design System & UX**, com o objetivo de implementar um **Design System funcional** com base em um protótipo no Figma e tecnologias modernas como ReactJS, Vite e Storybook.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ React 19 com Vite
+- 🎨 Tokens de design (cores, tipografia, espaçamento)
+- 📚 [Storybook](https://storybook.js.org/) para documentação de componentes
+- ✅ Vitest + React Testing Library para testes unitários
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ Protótipo no Figma
+
+🔗 [Clique aqui para visualizar o protótipo](https://www.figma.com/file/SEU-LINK-AQUI)
+
+---
+
+## 📦 Instalação do projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/RickyMarq/facilrent.git
+cd facilrent
+npm install
+🚀 Rodando o projeto
+🔧 Em desenvolvimento:
+bash
+Copy
+Edit
+npm run dev
+📖 Rodando o Storybook:
+bash
+Copy
+Edit
+npm run storybook
+🧪 Rodando os testes:
+bash
+Copy
+Edit
+npm run test
+📁 Estrutura
+bash
+Copy
+Edit
+src/
+├── components/         # Componentes reutilizáveis (botões, onboarding)
+├── tokens/             # Tokens de design (cores, espaçamento, tipografia)
+├── Tests/              # Testes unitários com Vitest
+├── assets/             # Imagens e recursos
+├── styles/             # (Opcional) estilos globais
+
+✅ Entregáveis atendidos
+ Estrutura de tokens reutilizáveis
+
+ 2 componentes reutilizáveis com gradiente e responsividade
+
+ Tela onboarding fiel ao protótipo
+
+ Documentação com Storybook
+
+ Testes unitários com cobertura de interação e render
+
+✍️ Autor
+Henrique Marques
+github.com/RickyMarq
+
+Se quiser adicionar badges (como cobertura, status do deploy ou links diretos), posso ajudar com isso também!
