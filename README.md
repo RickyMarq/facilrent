@@ -27,26 +27,19 @@ FacilRent é uma aplicação desenvolvida como parte da disciplina **Design Syst
 git clone https://github.com/RickyMarq/facilrent.git
 cd facilrent
 npm install
+
 🧪 Execução
 Em desenvolvimento:
-bash
-Copy
-Edit
 npm run dev
+
 Rodar o Storybook:
-bash
-Copy
-Edit
 npm run storybook
+
 Rodar os testes:
-bash
-Copy
-Edit
 npm run test
+
+
 📁 Estrutura
-java
-Copy
-Edit
 src/
 ├── components/         → Componentes reutilizáveis (botões, onboarding)
 ├── tokens/             → Tokens de design (cores, espaçamento, tipografia)
